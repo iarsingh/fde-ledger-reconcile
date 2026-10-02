@@ -1,0 +1,3 @@
+settlement_id,payment_id,amount_cents,status
+set-1,pay-9,1500,posted
+set-2,pay-4,7900,posted

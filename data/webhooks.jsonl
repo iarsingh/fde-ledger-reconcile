@@ -1,0 +1,5 @@
+{"event_id":"evt-1","payment_id":"pay-9","amount_cents":1500,"currency":"USD"}
+{"event_id":"evt-1","payment_id":"pay-9","amount_cents":1500,"currency":"USD"}
+{"event_id":"evt-2","payment_id":"pay-9","amount_cents":1500,"currency":"USD"}
+{"event_id":"evt-3","payment_id":"pay-4","amount_cents":8000,"currency":"USD"}
+{"event_id":"evt-4","payment_id":"pay-7","amount_cents":2200,"currency":"USD"}

@@ -1,0 +1,5 @@
+{"event_id":"evt-1","expected_status":"matched"}
+{"event_id":"evt-1","expected_status":"duplicate_event"}
+{"event_id":"evt-2","expected_status":"duplicate_payment"}
+{"event_id":"evt-3","expected_status":"amount_exception"}
+{"event_id":"evt-4","expected_status":"pending_settlement"}
