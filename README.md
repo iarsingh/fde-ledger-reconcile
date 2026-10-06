@@ -70,3 +70,11 @@ python -m ledger
 - [Readout](docs/03-readout.md)
 
 The pilot does not claim recovered revenue. It claims that a replay does not double-count and a mismatch stays in the exception file.
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
