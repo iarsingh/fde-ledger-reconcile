@@ -1,5 +1,12 @@
 # Brightpath payment reconciliation
 
+## Overview
+
+A simulated forward deployed engagement for Brightpath, a fictional payments operations team. Payment webhooks and the bank settlement file can arrive more than once and do not always agree, so the reconciler matches events idempotently: replays are ignored, duplicate payments are not counted twice, and any amount mismatch goes to an exception file instead of being marked settled. An evaluation command checks these cases against a sample file.
+
+- **Built with:** Python, pytest, Docker
+- **Scope:** Simulated engagement with a fictional customer; it claims no recovered revenue, only that replays never double-count.
+
 <!-- project-guide:start -->
 ## Project guide
 
